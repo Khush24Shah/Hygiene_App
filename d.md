@@ -1,0 +1,5 @@
+# Rounding Error
+
+When we perform mathematical operations on numbers, the precision of the number decreases. This is called the rounding error. This happens because the computer uses a limited number of bits to store the result of the operation. This means that the computer cannot store the exact result of the operation. It can only store an approximation of the result. This approximation is called the rounding error.
+
+Sometimes, just the order of operations can cause a rounding error. For example, for extremely small positive number $\left(x\right)$ and $\left(x + 1 - 1\right)$ is not equal to $x$. This is because the computer first adds $1$ to $x$ and then subtracts $1$ from the result. This causes a rounding error. However, if we first subtract $1$ from $1$ and then add $x$ to the result, then the result will be equal to $x$. This was just a very simple example. However, in some cases, the cause of the rounding error is not so obvious. We will see such cases in this blog.
