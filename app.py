@@ -25,9 +25,6 @@ fig.add_bar(x=[0], y=[y1], name="log(1+10^(-p))", text=[y1], textposition="outsi
 
 st.plotly_chart(fig)
 
-st.balloons()
-st.snow()
-
 # markdown - b.md
 with open("b.md") as f:
     st.markdown(f.read())
